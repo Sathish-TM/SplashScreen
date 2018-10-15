@@ -1,6 +1,6 @@
 # SplashScreen
 
-Splash Screen Demo which is impelemnted in java
+Splash Screen Demo which is implemented in java
 
 Style:
     Background Image,
