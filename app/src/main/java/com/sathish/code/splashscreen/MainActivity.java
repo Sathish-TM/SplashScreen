@@ -1,8 +1,10 @@
 package com.sathish.code.splashscreen;
 
+import android.content.Intent;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
@@ -21,7 +23,11 @@ public class MainActivity extends AppCompatActivity {
             {
                 // Create Intent for next Activity navigation
                 Toast.makeText(getApplicationContext(),"Start New Activity",Toast.LENGTH_SHORT).show();
+                Intent intent=new Intent(MainActivity.this,SecondActivity.class);
+                startActivity(intent);
                 finish();
+                Log.w("This is the","New Modification");
+                //finish();
             }
         }, SPLASH_OUT);
     }
