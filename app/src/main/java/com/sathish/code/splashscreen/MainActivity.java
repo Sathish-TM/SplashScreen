@@ -26,7 +26,6 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent=new Intent(MainActivity.this,SecondActivity.class);
                 startActivity(intent);
                 finish();
-                Log.w("This is the","New Modification");
                 //finish();
             }
         }, SPLASH_OUT);
