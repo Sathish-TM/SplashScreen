@@ -22,7 +22,6 @@ public class MainActivity extends AppCompatActivity {
             public void run()
             {
                 // Create Intent for next Activity navigation
-                Toast.makeText(getApplicationContext(),"Start New Activity from the Android Studio..",Toast.LENGTH_SHORT).show();
                 Intent intent=new Intent(MainActivity.this,SecondActivity.class);
                 startActivity(intent);
                 finish();
