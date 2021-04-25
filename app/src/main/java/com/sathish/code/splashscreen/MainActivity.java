@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent=new Intent(MainActivity.this,SecondActivity.class);
                 startActivity(intent);
                 finish();
+                Log.w("Given Log View","Success");
                 //finish();
             }
         }, SPLASH_OUT);
