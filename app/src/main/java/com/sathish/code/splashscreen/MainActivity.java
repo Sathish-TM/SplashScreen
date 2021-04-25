@@ -31,4 +31,9 @@ public class MainActivity extends AppCompatActivity {
             }
         }, SPLASH_OUT);
     }
+
+
+    public void funGame(){
+        Toast.makeText(getApplicationContext(),"This is the new Toast indicator",Toast.LENGTH_SHORT).show();
+    }
 }
